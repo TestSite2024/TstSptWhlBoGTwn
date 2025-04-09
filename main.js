@@ -24,7 +24,7 @@ var color =color4;
 //Select the text color
 var colortxt = colortxt3;
 var gen;
-var gender = ["","","It's Twin Boys!","","","Its Twin Girls!","","It's a Boy & a Girl"];
+var gender = ["","","It's Twin Boys!","","","It's Twin Girls!","","It's a Boy & a Girl"];
 var col = ["","","blue","","","pink","","pink and blue"];
 var w = ["","","Twin Boys","","","Twin Girls","","Boy & Girl Twins"];
 
