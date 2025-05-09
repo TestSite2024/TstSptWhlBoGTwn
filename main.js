@@ -60,12 +60,11 @@ function confetti_effect() {
     }
     
     document.getElementsByTagName("body")[0].style.backgroundImage = 'none';
-    document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> In the real product you buy, here it will say '" + gender[gen] + "' with " + col[gen] +" background color. And the wheel will stop at " + w[gen] + "</h4>");
-    $('body').css({
-        'background-image:' : color,
-        'background-image:' : color3a,
-        'background-image:' : color3b,
-    });
+                $('body').css('background-image', color);
+                $('body').css('-webkit-background-image', color3b); // For WebKit browsers
+                $('body').css('-moz-background-image', color3a); // Standard
+                //$('.images').hide();              
+                //document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> Depending on the product you buy, here it will say either <br> 'It is a Girl!' or 'It is a Boy! with pink or blue background.</h4>");
 
     $('#H3').hide();
     $('#H4').hide();
